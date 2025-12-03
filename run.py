@@ -12,28 +12,27 @@ if not os.path.exists(log_dir):
 
 MODELS = [
             # Anthropic
-            "anthropic/claude-3-5-sonnet-20241022",
-            "anthropic/claude-opus-4-20250514",
-            "anthropic/claude-sonnet-4-20250514",
-            "anthropic/claude-3-7-sonnet-20250219",
-            "anthropic/claude-3-5-haiku-20241022",
+                # "anthropic/claude-3-5-sonnet-20241022",
+                # "anthropic/claude-opus-4-20250514",
+                # "anthropic/claude-sonnet-4-20250514",
+                # "anthropic/claude-3-7-sonnet-20250219",
+                # "anthropic/claude-3-5-haiku-20241022",
+                "anthropic/claude-sonnet-4-5-20250929",
+                "anthropic/claude-haiku-4-5-20251001",
+                "anthropic/claude-opus-4-5-20251101",
             
             # OpenAI
-            "openai/gpt-4.1-2025-04-14",
-            "openai/gpt-4o-2024-08-06",
-            "openai/o4-mini-2025-04-16",
-            "openai/o1-2024-12-17",
-            "openai/o3-2025-04-16",
+            "openai/gpt-5.1-2025-11-13",
+            "openai/gpt-5-2025-08-07",
+            "openai/gpt-5-mini-2025-08-07",
+            "openai/gpt-5-nano-2025-08-07",
             
             # Gemini
-            "google/gemini-1.5-flash",
-            "google/gemini-2.0-flash",
-            "google/gemini-2.5-pro-preview-05-06",
-            "google/gemini-2.5-flash-preview-05-20",
+            "google/gemini-3-pro-preview",
             
             # Grok
-            "grok/grok-3-mini",
-            "grok/grok-4-0709"
+            "grok/grok-4-1-fast-reasoning",
+            "grok/grok-4-1-fast-non-reasoning"
         ]
 
 eval_set(bounty(len(MODELS)), 
