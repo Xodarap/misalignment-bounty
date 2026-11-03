@@ -1,0 +1,142 @@
+{
+  "eval_set_id": "dCVAt4e4M6QHwGTdGHuo2K",
+  "tasks": [
+    {
+      "name": "bounty",
+      "task_id": "M54PasNqbV7sW4j8eJHPUx",
+      "task_file": "eval.py",
+      "task_args": {
+        "N": 11
+      },
+      "model": "anthropic/claude-fable-5-1",
+      "model_args": {
+        "default_headers": {
+          "x-api-key": "<redacted>"
+        }
+      },
+      "sequence": 0
+    },
+    {
+      "name": "bounty",
+      "task_id": "HbKUgTzANXiV65uwww8xh4",
+      "task_file": "eval.py",
+      "task_args": {
+        "N": 11
+      },
+      "model": "anthropic/claude-opus-5-5",
+      "model_args": {
+        "default_headers": {
+          "x-api-key": "<redacted>"
+        }
+      },
+      "sequence": 0
+    },
+    {
+      "name": "bounty",
+      "task_id": "6GJ7JQkpktBuERH9eAN7NT",
+      "task_file": "eval.py",
+      "task_args": {
+        "N": 11
+      },
+      "model": "anthropic/claude-sonnet-5-5",
+      "model_args": {
+        "default_headers": {
+          "x-api-key": "<redacted>"
+        }
+      },
+      "sequence": 0
+    },
+    {
+      "name": "bounty",
+      "task_id": "kdwVpgmRyWZq5isqDAzijB",
+      "task_file": "eval.py",
+      "task_args": {
+        "N": 11
+      },
+      "model": "anthropic/claude-haiku-5-5",
+      "model_args": {
+        "default_headers": {
+          "x-api-key": "<redacted>"
+        }
+      },
+      "sequence": 0
+    },
+    {
+      "name": "bounty",
+      "task_id": "VCq57WjfSFaKHZEKHWbhDh",
+      "task_file": "eval.py",
+      "task_args": {
+        "N": 11
+      },
+      "model": "openai/gpt-6.1-sol",
+      "model_args": {},
+      "sequence": 0
+    },
+    {
+      "name": "bounty",
+      "task_id": "3F76hdQgjravG8bvjX5Mwz",
+      "task_file": "eval.py",
+      "task_args": {
+        "N": 11
+      },
+      "model": "openai/gpt-6.1-terra",
+      "model_args": {},
+      "sequence": 0
+    },
+    {
+      "name": "bounty",
+      "task_id": "b9T6TcFnweGmHJkagJ8jhF",
+      "task_file": "eval.py",
+      "task_args": {
+        "N": 11
+      },
+      "model": "openai/gpt-6-luna",
+      "model_args": {},
+      "sequence": 0
+    },
+    {
+      "name": "bounty",
+      "task_id": "mxhcSfEgkUPSTEEgBGPWxv",
+      "task_file": "eval.py",
+      "task_args": {
+        "N": 11
+      },
+      "model": "google/gemini-4-argon",
+      "model_args": {},
+      "sequence": 0
+    },
+    {
+      "name": "bounty",
+      "task_id": "8AJFWHPjiFMWGfugq5c79V",
+      "task_file": "eval.py",
+      "task_args": {
+        "N": 11
+      },
+      "model": "google/gemini-3.1-pro-preview",
+      "model_args": {},
+      "sequence": 0
+    },
+    {
+      "name": "bounty",
+      "task_id": "949ZNmho68di8EqXxTnVTQ",
+      "task_file": "eval.py",
+      "task_args": {
+        "N": 11
+      },
+      "model": "google/gemini-3.8-flash",
+      "model_args": {},
+      "sequence": 0
+    },
+    {
+      "name": "bounty",
+      "task_id": "gBvF3HQuxnjKxf7Nv2fGAV",
+      "task_file": "eval.py",
+      "task_args": {
+        "N": 11
+      },
+      "model": "openrouter/x-ai/grok-4.7",
+      "model_args": {},
+      "sequence": 0
+    }
+  ]
+}
